@@ -1,0 +1,91 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+@charset "UTF-8";
+
+#landing{
+  background:
+    linear-gradient(
+      rgba(226, 255, 0, 0.49), 
+      rgba(255, 88, 0, 0.45)
+    ),  url("https://res.cloudinary.com/synee/image/upload/v1535529895/black-3558960_1920_jcj0vr.jpg");
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  padding: 5px 25px;
+  margin: 0;
+  color: #c7c7c7;
+}
+#landingBox{
+  font-family: "Merriweather";
+  color: white;
+  padding: 10px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px 15px 15px 15px;
+  margin-bottom: auto;
+  margin-top: 20%;
+  white-space: pre-line;
+  text-align: center;
+
+}
+#landingBox buttons{
+  text-align: 
+}
+.sidenav {
+  height: 100%;
+  width: 190px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    rgba(226, 255, 0, 0.49), 
+    rgba(255, 88, 0, 0.45)
+  );
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav img{
+  border-radius: 45%;
+  border: 2px solid white;
+  height: 150px;
+  width: 150px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.listBody{
+  margin-left: 190px; /* Same as the width of the sidenav */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  
+  color: gray;
+}
+.listBody p{
+  text-align: left;
+}
+.alignRight{
+	text-align: right;
+}
+
